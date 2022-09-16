@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Popup Mad Lib</title>
+    <link href="popup.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">    
+
+</head>
+    
+    <body>
+    
+    <script>
+    animal = window.prompt('Insert a type of animal');
+    population = window.prompt('Insert the population of this animal');
+    climate = window.prompt('Insert what type of climate this animal is found in');
+    countries = window.prompt('Insert a country where this animal can be found');
+   
+    let msg = "<p style='color:rgb(43, 226, 58);;'>" + "The " + animal + " has a population of " + population + " and can be found in " + climate + " countries like " + countries + " </p"
+    
+    document.write(msg);
+    
+    
+    console.log(msg)
+    
+    </script>
+    </body>
+    
+    </html>
